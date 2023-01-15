@@ -1,0 +1,17 @@
+{
+  "name": "crm-app",
+  "version": "1.0.0",
+  "description": "Create a CRM application that can be leveraged to accept the customer complaints and provide the complete life cycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avijeet Nair",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3"
+  }
+}

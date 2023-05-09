@@ -1,4 +1,3 @@
-
 exports.userResponse = (users) => {
     let usersResult = []
     users.forEach(user => {
@@ -11,4 +10,25 @@ exports.userResponse = (users) => {
         })
     });
     return usersResult
+}
+
+exports.ticketResponse = (ticket) => {
+    return {
+        title: ticket.title,
+        ticketPriority: ticket.ticketPriority,
+        description: ticket.description,
+        status: ticket.status,
+        reporter: ticket.reporter,
+        assignee: ticket.assignee,
+        id: ticket._id,
+        createdAt: ticket.createdAt,
+        updatedAt: ticket.updatedAt
+    }
+}
+
+exports.ticketListResponse = (tickets) => {
+    let ticketResult = []
+    tickets.forEach(ticket => { return ticketResult.push(exports.ticketResponse(ticket)) }
+    )
+    return ticketResult
 }

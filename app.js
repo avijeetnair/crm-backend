@@ -46,6 +46,9 @@ authRouter(app);
 
 let userRouter = require("./routes/user.routes")
 userRouter(app);
+
+let ticketRouter = require("./routes/ticket.routes");
+ticketRouter(app);
 //app.get('/', (req, res) => res.send("Hello World"));
 
 app.listen(3000, () => console.log('Listening at http://localhost:3000'));

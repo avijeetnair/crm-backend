@@ -1,7 +1,16 @@
-const authJwt = require("../middlewares/authjwt");
+const authJwt = require("../middlewares/authjwt")
+const userController = require("../controllers/user.controller")
 
-module.exports = function(app) {
-    app.get("/crm/api/users", [authJwt.verifyToken, authJwt.isAdmin], (req, res) => res.send(req.body) );
-    //send a jwtToken (route) -> verify and get userId (middleware) -> get userId and send response(controller)
-    //only admin can see all users, so isAdmin
+module.exports = function (app) {
+    app.get('/crm/api/users/',
+        [authJwt.verifyToken, authJwt.isAdmin],
+        userController.findAll)
+    app.get('/crm/api/users/:userId',
+        [authJwt.verifyToken, authJwt.isAdmin],
+        userController.findById
+    )
+    app.put('/crm/api/users/:userId',
+        [authJwt.verifyToken, authJwt.isAdmin],
+        userController.update
+    )
 }

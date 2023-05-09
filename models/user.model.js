@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema({
     name: {
@@ -17,13 +17,13 @@ const userSchema = mongoose.Schema({
     email: {
         type: String,
         required: true,
-        lowercase: true,    //convert email to lowercase , before adding to db
+        lowercase: true,
         unique: true,
         isEmail: true,
     },
     createdAt: {
         type: Date,
-        immutable: true,    //cannot be modified
+        immutable: true,
         default: () => Date.now(),
     },
     updatedAt: {
@@ -39,6 +39,14 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true,
         default: "APPROVED"
+    },
+    ticketsCreated: {
+        type: [mongoose.SchemaTypes.ObjectId],
+        ref: "Ticket"
+    },
+    ticketsAssigned: {
+        type: [mongoose.SchemaTypes.ObjectId],
+        ref: "Ticket"
     }
 })
 

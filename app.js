@@ -51,4 +51,6 @@ let ticketRouter = require("./routes/ticket.routes");
 ticketRouter(app);
 //app.get('/', (req, res) => res.send("Hello World"));
 
-app.listen(3000, () => console.log('Listening at http://localhost:3000'));
+//app.listen(3000, () => console.log('Listening at http://localhost:3000'));
+
+module.exports = app.listen(7500, () => console.log("Listening at localhost:7500"))

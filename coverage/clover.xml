@@ -1,60 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683740950937" clover="3.2.0">
-  <project timestamp="1683740950937" name="All files">
-    <metrics statements="209" coveredstatements="176" conditionals="51" coveredconditionals="33" methods="31" coveredmethods="27" elements="291" coveredelements="236" complexity="0" loc="209" ncloc="209" packages="5" files="11" classes="11"/>
-    <package name="configs">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="auth.config.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/configs/auth.config.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+<coverage generated="1683742958967" clover="3.2.0">
+  <project timestamp="1683742958967" name="All files">
+    <metrics statements="278" coveredstatements="239" conditionals="61" coveredconditionals="39" methods="41" coveredmethods="36" elements="380" coveredelements="314" complexity="0" loc="278" ncloc="278" packages="8" files="17" classes="17"/>
+    <package name="CRM_Backend">
+      <metrics statements="31" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <file name="app.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/app.js">
+        <metrics statements="31" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="controllers">
+    <package name="CRM_Backend.configs">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="auth.config.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/configs/auth.config.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="db.config.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/configs/db.config.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="CRM_Backend.controllers">
       <metrics statements="149" coveredstatements="123" conditionals="47" coveredconditionals="31" methods="15" coveredmethods="15"/>
       <file name="auth.controller.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/controllers/auth.controller.js">
         <metrics statements="33" coveredstatements="33" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="12" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="4" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="4" type="stmt"/>
-        <line num="51" count="4" type="stmt"/>
-        <line num="53" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="53" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="54" count="1" type="stmt"/>
         <line num="57" count="1" type="stmt"/>
-        <line num="60" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="1" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
-        <line num="72" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="72" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="73" count="1" type="stmt"/>
         <line num="76" count="1" type="stmt"/>
-        <line num="79" count="1" type="stmt"/>
-        <line num="83" count="1" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
       </file>
       <file name="ticket.controller.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/controllers/ticket.controller.js">
         <metrics statements="53" coveredstatements="34" conditionals="23" coveredconditionals="7" methods="5" coveredmethods="5"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
@@ -70,9 +111,9 @@
         <line num="43" count="0" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
         <line num="54" count="1" type="cond" truecount="3" falsecount="0"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
         <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
@@ -88,7 +129,7 @@
         <line num="99" count="0" type="stmt"/>
         <line num="102" count="1" type="stmt"/>
         <line num="103" count="1" type="stmt"/>
-        <line num="109" count="1" type="stmt"/>
+        <line num="109" count="3" type="stmt"/>
         <line num="116" count="1" type="stmt"/>
         <line num="118" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="119" count="1" type="stmt"/>
@@ -99,45 +140,45 @@
         <line num="129" count="1" type="stmt"/>
         <line num="132" count="1" type="stmt"/>
         <line num="133" count="1" type="stmt"/>
-        <line num="137" count="1" type="stmt"/>
+        <line num="137" count="3" type="stmt"/>
         <line num="138" count="1" type="stmt"/>
         <line num="142" count="1" type="stmt"/>
       </file>
       <file name="user.controller.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/controllers/user.controller.js">
         <metrics statements="63" coveredstatements="56" conditionals="14" coveredconditionals="14" methods="8" coveredmethods="8"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="25" count="2" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
         <line num="39" count="2" type="stmt"/>
         <line num="40" count="2" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
         <line num="55" count="2" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
         <line num="65" count="1" type="stmt"/>
-        <line num="68" count="1" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
         <line num="70" count="2" type="stmt"/>
         <line num="71" count="2" type="stmt"/>
         <line num="75" count="1" type="stmt"/>
         <line num="76" count="0" type="stmt"/>
         <line num="80" count="1" type="stmt"/>
-        <line num="85" count="1" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
         <line num="87" count="10" type="stmt"/>
         <line num="88" count="10" type="stmt"/>
         <line num="89" count="10" type="stmt"/>
@@ -151,7 +192,7 @@
         <line num="97" count="2" type="stmt"/>
         <line num="99" count="2" type="stmt"/>
         <line num="101" count="5" type="stmt"/>
-        <line num="104" count="1" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
         <line num="105" count="3" type="stmt"/>
         <line num="107" count="3" type="stmt"/>
         <line num="108" count="3" type="stmt"/>
@@ -159,7 +200,7 @@
         <line num="116" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="117" count="2" type="stmt"/>
         <line num="119" count="1" type="stmt"/>
-        <line num="125" count="1" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
         <line num="126" count="3" type="stmt"/>
         <line num="127" count="3" type="stmt"/>
         <line num="128" count="3" type="stmt"/>
@@ -170,48 +211,103 @@
         <line num="144" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="models">
+    <package name="CRM_Backend.middlewares">
+      <metrics statements="20" coveredstatements="17" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="authjwt.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/middlewares/authjwt.js">
+        <metrics statements="20" coveredstatements="17" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="2" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="CRM_Backend.models">
       <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="ticket.model.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/models/ticket.model.js">
         <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
       </file>
       <file name="user.model.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/models/user.model.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="53" count="3" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
       </file>
     </package>
-    <package name="tests">
-      <metrics statements="28" coveredstatements="28" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="5"/>
+    <package name="CRM_Backend.routes">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="auth.routes.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/routes/auth.routes.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="ticket.routes.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/routes/ticket.routes.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="user.routes.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/routes/user.routes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="CRM_Backend.tests">
+      <metrics statements="28" coveredstatements="28" conditionals="4" coveredconditionals="3" methods="5" coveredmethods="5"/>
       <file name="db.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/tests/db.js">
-        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="6" type="stmt"/>
-        <line num="26" count="6" type="stmt"/>
-        <line num="27" count="6" type="stmt"/>
-        <line num="28" count="6" type="stmt"/>
-        <line num="29" count="6" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
       </file>
       <file name="interceptor.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/tests/interceptor.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -227,13 +323,13 @@
         <line num="13" count="26" type="stmt"/>
       </file>
     </package>
-    <package name="utils">
+    <package name="CRM_Backend.utils">
       <metrics statements="20" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
       <file name="NotificationClient.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/utils/NotificationClient.js">
         <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
@@ -242,18 +338,18 @@
       </file>
       <file name="constants.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/utils/constants.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
       <file name="objectConverter.js" path="/Users/avijeetnair/Desktop/Relevel Projects/BackEnd/CRM_Backend/utils/objectConverter.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
         <line num="2" count="7" type="stmt"/>
         <line num="3" count="7" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
         <line num="12" count="6" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>

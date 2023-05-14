@@ -8,6 +8,8 @@ const bcrypt = require('bcryptjs');
 const { userStatus } = require('./utils/constants');
 const constants = require('./utils/constants');
 
+const cors = require('cors');
+app.use(cors())
 //to create first admin user, hardcoding userId as admin
 async function init(){
     let user = await User.findOne({userId:"admin"});

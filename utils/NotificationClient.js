@@ -16,7 +16,7 @@ module.exports = (ticketId, subject, content, emailIds, requester) => {
         headers: { "Content-Type": "application/json" }
     }
 
-    client.post("http://localhost:3030/notifiServ/api/notifications/",
+    client.post("http://34.131.96.95:3030/notifiServ/api/notifications/",
         args,
         (data, response) => {
             console.log("Request sent")
